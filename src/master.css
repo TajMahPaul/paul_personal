@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+
+:root{
+    --clr-primary-orange: #F18F01;
+    --clr-primary-blue: #048BA8;
+    --clr-primary-charcoal: #2E4057;
+    --clr-primary-green: #99C24D;
+    --clr-primary-gray: #2F2D2E
+
+    --clr-primary-dark-400: ;
+    --clr-primary-dark-300: ;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font: inherit;
+}
+
+img,
+picture,
+svg {
+    max-width: 100%;
+    display: block;
+}
+
+.heading-text{
+ font-family: 'Source Code Pro', monospace;
+}
+
+body{
+    background-color: white;
+}

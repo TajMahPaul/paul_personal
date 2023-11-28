@@ -1,0 +1,26 @@
+---
+import { Image } from 'astro:assets';
+import  ProfilePicture from '../assets/ProfilePicture.jpeg';
+const text_title_small = "Hey I'm a";
+const text_title_large = "Developer"
+---
+
+<div class="hero-container">
+    <Image class="hero-pfp" src={ProfilePicture} alt="A bird sitting on a nest of eggs."/>
+    <div class="hero-text">Hey I'm a Developer</div>
+</div>
+
+<style>
+    .hero-pfp {
+        object-fit: contain;
+        -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+        filter: grayscale(100%);
+        border-radius: 20% 20%;
+        height: 20rem;
+        width: 20rem;
+        background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#000));
+    }
+    .hero-container {
+        display: flex;
+    }
+</style>
